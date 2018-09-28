@@ -8,11 +8,11 @@ public:
 	DetectTable();
 
 protected:
+	// ROS node handle. Instantiate before it_.
+	ros::NodeHandle nh_;
+
 	// Image transport;
 	image_transport::ImageTransport it_;
-
-	// ROS node handle.
-	ros::NodeHandle nh_;
 
 	// Image subscriber.
 	image_transport::Subscriber image_sub_;
