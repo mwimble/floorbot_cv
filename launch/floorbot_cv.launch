@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="floorbot_cv" type="floorbot_cv_node" name="floorbot_cv_node" output="screen">
+	</node>
+</launch>
